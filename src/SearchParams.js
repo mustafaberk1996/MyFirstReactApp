@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import useBreedList from "./useBreedList";
-import Pet from "./Pet";
+import Results from "./Results";
 
 const ANIMALS = ["bird", "dog", "cat", "elephant"];
 
@@ -92,8 +92,7 @@ const SearchParams = () => {
         </label>
         <button>Submit</button>
       </form>
-
-      <div className="dv-pets"></div>
+      <Results pets={pets} />
     </div>
   );
 };
