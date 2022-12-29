@@ -1,6 +1,6 @@
 node_modules/
-.parcel-cache/
-.parcel-cache/data.mdb
+parcel-cache/
+parcel-cache/data.mdb
 dist/
 .env
 .DS_Store
